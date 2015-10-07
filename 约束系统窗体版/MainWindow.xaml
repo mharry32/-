@@ -1,0 +1,21 @@
+﻿<Window x:Class="约束系统窗体版.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:约束系统窗体版"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="cdbox" HorizontalAlignment="Left" Height="23" Margin="120,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="cdbox_TextChanged"/>
+        <TextBox x:Name="fabox" HorizontalAlignment="Left" Height="23" Margin="300,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="fabox_TextChanged"/>
+        <Label x:Name="label" Content="C:" HorizontalAlignment="Left" Margin="94,59,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="F:" HorizontalAlignment="Left" Margin="255,61,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="calagain" Content="Continue" HorizontalAlignment="Left" Margin="345,147,0,0" VerticalAlignment="Top" Width="75" Click="calagain_Click"/>
+        <Button x:Name="quitbt" Content="Quit" HorizontalAlignment="Left" Margin="345,184,0,0" VerticalAlignment="Top" Width="75" Click="quitbt_Click"/>
+        <Button x:Name="cal" Content="Calculate!" HorizontalAlignment="Left" Margin="255,161,0,0" VerticalAlignment="Top" Width="75" Click="cal_Click"/>
+        <Button x:Name="cok" Content="OK" HorizontalAlignment="Left" Margin="120,102,0,0" VerticalAlignment="Top" Width="32" Click="cok_Click"/>
+        <Button x:Name="fok" Content="OK" HorizontalAlignment="Left" Margin="300,102,0,0" VerticalAlignment="Top" Width="30" Click="fok_Click"/>
+
+    </Grid>
+</Window>
